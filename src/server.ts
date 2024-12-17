@@ -1,8 +1,10 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
 
+
 const app = express();
-const port = 3000;
+const bodyParser = require('body-parser')
+const port = 5001;
 
 // Enable CORS
 app.use(cors());
